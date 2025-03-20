@@ -41,9 +41,9 @@ const Contact = () => {
         process.env.NEXT_PUBLIC_BETA,
         {
           from_name: form.name,
-          to_name: "Tom Zakrajsek",
+          to_name: "Justin Zakrajsek",
           from_email: form.email,
-          to_email: "tzakrajsek@gmail.com",
+          to_email: "justin.zakrajsek@gmail.com",
           message: form.message,
         },
         process.env.NEXT_PUBLIC_GAMMA
@@ -82,12 +82,12 @@ const Contact = () => {
         <span>Visit my public platforms</span>
         &nbsp;
         &nbsp;
-        <Link rel="noopener noreferrer" target="_blank" href={'https://github.com/veryoddthomas/'}>
+        <Link rel="noopener noreferrer" target="_blank" href={'https://github.com/epicjazsax/'}>
           <FontAwesomeIcon icon={faGithub} inverse />
         </Link>
         &nbsp;
         &nbsp;
-        <Link rel="noopener noreferrer" target="_blank" href={'https://www.linkedin.com/in/tom-zakrajsek/'}>
+        <Link rel="noopener noreferrer" target="_blank" href={'https://www.linkedin.com/in/justin-zakrajsek-6b842082/'}>
           <FontAwesomeIcon icon={faLinkedin} inverse />
         </Link>
         &nbsp;

@@ -22,19 +22,19 @@ const Mission = () => {
       // max-w-3xl
       >
         <p>
-          My mission is to engineer better software.
+          My mission is to write better code.
         </p>
 
         <p>
-          Essential software attributes include:
+          Essential code attributes include:
         </p>
 
         <ul className='mt-5 list-disc ml-5 space-y-2'>
-          <li>maintainable (comprehensible, testable, and extensible)</li>
-          <li>robust (functional, reliable, resilient)</li>
-          <li>secure (appropriately protectd, permissioned, and authenticated)</li>
+          <li>maintainable (readable, testable, and extensible)</li>
+          <li>robust (well-tested, consistent, and efficient)</li>
+          <li>secure (appropriately protected, permissioned, and authenticated)</li>
         </ul>
-
+{/* 
         <p>
           Critical process attributes include:
         </p>
@@ -46,7 +46,7 @@ const Mission = () => {
           <li>transparency</li>
           <li>repeatability</li>
           <li>scalability</li>
-        </ul>
+        </ul> */}
 
       </motion.div>
     </>

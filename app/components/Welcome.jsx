@@ -9,14 +9,13 @@ const Welcome = () => {
           <h1 className='title-size'> Welcome! </h1>
           <div className='font-medium text-primary text-xl lg:text-3xl mt-6'>
             <div className="flex gap-6 mt-8 lg:mt-16 mt-">
-              <span>My name is <span className='emphasized-2'>Tom Zakrajsek</span>. </span>
+              <span>My name is <span className='emphasized-2'>Justin Zakrajsek</span>. </span>
             </div>
 
             <p className='mt-6'>
               I&apos;m a
-              &nbsp;<span className='emphasized-1'>software engineer</span>&nbsp; and
-              &nbsp;<span className='emphasized-1'>technical leader</span>&nbsp;
-              with a passion for software craftsmanship and developing strong teams.
+              &nbsp;<span className='emphasized-1'>web developer</span>&nbsp;
+              with a passion for clean code and problem solving.
             </p>
 
             <p className='mt-6'>
@@ -25,20 +24,11 @@ const Welcome = () => {
                 <StringCycler
                   interval={1500}
                   strings={([
-                    "clean code",
-                    "unit testing and code coverage",  // "test-driven developement",
-                    "code reviews",
-                    "Rust",
-                    "model training",
-                    "hardware abstraction layers",
-                    "embeded device architecture",
-                    "supply-chain security",
-                    "supply-chain reliability",
-                    "Github actions",
-                    "cloud services and architecture",
-                    "Mojo 🔥",
-                    "superconducting quantum interference devices (SQUIDs)",
-                    "code optimization",
+                    "writing meaningful tests",
+                    "improving code readability",
+                    "finding efficient solutions",
+                    "keeping code maintainable",
+                    "learning from better code",
                   ])}
                 />
               </span>

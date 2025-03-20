@@ -30,15 +30,15 @@ const NameLogo = () => {
         <Image src={logo} alt='logo' className='w-9 h-9 object-contain' />
       </Link > */}
 
-      <Link rel="noopener noreferrer" href={'https://github.com/veryoddthomas/'}>
+      <Link rel="noopener noreferrer" href={'https://github.com/epicjazsax/'}>
         <FontAwesomeIcon icon={faGithub} size="2x" inverse />
       </Link>
 
-      <Link rel="noopener noreferrer" href={'https://www.linkedin.com/in/tom-zakrajsek/'}>
+      <Link rel="noopener noreferrer" href={'https://www.linkedin.com/in/justin-zakrajsek-6b842082/'}>
         <FontAwesomeIcon icon={faLinkedin} size="2x" inverse />
       </Link>
 
-      {/* < Link href={'https://github.com/veryoddthomas/about'} className='flex items-center gap-2'  >
+      {/* < Link href={'https://github.com/epicjazsax/about'} className='flex items-center gap-2'  >
         <Image src={src} alt='source' className='w-9 h-9 object-contain' />
       </Link > */}
     </span>
