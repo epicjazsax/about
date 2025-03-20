@@ -10,13 +10,13 @@ export default function QRCode() {
                 <div className='flex flex-wrap mt-8   '>
                     <Image
                         src={qrcode}
-                        alt={'https://veryoddthomas.vercel.app/'}
+                        alt={'https://epicjazsax.vercel.app/'}
                         // className='w-24 h-12 object-contain inline'
                         // className='w-16 h-16 object-contain inline align-left object-left mr-4'
                         className='object-contain inline align-left object-left mr-4'
                     />
                 </div>
-                <p className='text-primary-light mt-2'>veryoddthomas.vercel.app</p>
+                <p className='text-primary-light mt-2'>epicjazsax.vercel.app</p>
             </div>
         </main>
     );
