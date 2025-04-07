@@ -1,13 +1,8 @@
 import {
   c_and_cpp,
   python,
-  lua,
-  rust,
-  mojo,
   javascript,
   code,
-  gears,
-  asm,
 } from "../assets";
 
 const proficiency_ratings = {
@@ -20,120 +15,69 @@ const proficiency_ratings = {
 
 const languages = [
   {
-    title: "C and C++",
-    proficiency: "Expert",
-    icon: c_and_cpp,
-    id: "c-and-cpp",
-    desc: [
-      `
-I have decades of experience with C and C++, developing
-on Windows, OS X, and Linux using GCC, clang, and Microsoft
-Visual C++, as well numerous cross-compilers for
-embedded devices.  Much of my experience is with
-system code, as opposed to GUI applications.  I also
-have experience with interop between C and
-other languages (Assembly, Lua, Rust, etc.)
-      `,
-    ],
-  },
-  {
-    title: "Python",
-    proficiency: "Advanced",
-    icon: python,
-    id: "python",
-    desc: [
-      `
-I have been programming in Python for more than 10 years.
-I use it for basic scripting, text manipulation and parsing,
-data analysis, modeling, and extensive on-device test automation.
-I've done a fair amount of python2 ➜ python3 migration.
-      `,
-    ]
-  },
-  {
-    title: "Rust",
-    proficiency: "Intermediate",
-    icon: rust,
-    id: "rust",
-    desc: [
-      `
-I'm ramping up on Rust right now, and I'm optimistic that it's
-a game-changer for system programmers.  The benefits of the
-memory-safety mechanisms are huge.  It also has a rich (and growing)
-standard library.  "System programmers can have nice things too."
-      `,
-    ]
-  },
-  {
-    title: "Lua",
-    proficiency: "Functional",
-    icon: lua,
-    id: "lua",
-    desc: [
-      `
-I have used Lua intermittently over several years. I think it's a great
-language for certain problem domains. Lua is extremely intuitive,
-compact, and easy to comprehend. It is powerful, but simple to learn.
-It is also embeddable, which makes it a great choice for enabling
-scripting inside another application (or game engine).
-      `,
-    ]
-
-  },
-  {
-    title: "Mojo",
-    proficiency: "Novice",
-    icon: mojo,
-    id: "mojo",
-    desc: [
-      `
-  I'm just starting to work with Mojo, but it's exciting.
-  It is a revolutionary platform for AI and other parallelizable
-  problem domains, while also being very familiar to experienced
-  python developers.
-        `,
-    ]
-  },
-  {
     title: "Javascript",
-    proficiency: "Intermediate",
+    proficiency: "Advanced",
     icon: javascript,
     id: "javascript",
     desc: [
       `
-I've used Javascript (ES6) for web development, and still consider myself a novice.
-But, I have been able to complete several projects and keep the code
-readable, functional, and maintainable.  It seems deceptively powerful and elegant
-if you avoid some pitfalls.  I'm exploring TypeScript, but wanted a handle
-on Javascript first.
+A majority of my coding has been in Javascript, and while I may need to look up the occasional
+syntax or brush up on a method I haven't thought about in months, this is the language I am most comfortable in.
       `,
     ]
   },
   {
-    title: "Assembly",
-    proficiency: "Advanced",
-    icon: asm,
-    id: "assembly",
-    desc: [
-      `
-I've programmed in Assembly language on the following RISC, CISC, and DSP processor families:
-x86, 68k, ADSP2101, DSP56k, ARM, Snapdragon, PowerPC, MIPS, and Alpha.
-      `,
-    ]
-  }, {
-    title: "Other Languages",
+    title: "CSS",
     proficiency: "Functional",
-    icon: code,
-    id: "other",
+    icon: c_and_cpp,
+    id: "c-and-cpp",
     desc: [
       `
-I've also used C#, Ruby, Lisp, HTML, CSS, Bash, Pascal, Ada,
-Awk, Make, Sed, Perl, PHP, and Basic.  I'm sure
-there are others, but I don't really consider myself proficient
-in any of these.  Basically, I can make them do what I need.
+I have spent some time with CSS and frameworks like Tailwind and TACHYONS as they relate to design
+layouts, color palettes, et cetera, but have not yet done as deep a dive into the language as I have
+with Javascript.
+      `,
+    ],
+  },
+  {
+    title: "HTML",
+    proficiency: "Functional",
+    icon: javascript,
+    id: "javascript",
+    desc: [
+      `
+As with CSS, I have spent some time with HTML learning layouts and tags but have not yet really
+dived deep enough to feel that I understand the full potential of the language.
       `,
     ]
   },
+  {
+    title: "Python",
+    proficiency: "Novice",
+    icon: python,
+    id: "python",
+    desc: [
+      `
+I started learning Python before beginning my Full-Stack Developer journey.
+I enjoy the language and have done some small snippets in it, but haven't
+dusted it off since I began learning Javascript
+      `,
+    ]
+  },
+//   {
+//     title: "Other Languages",
+//     proficiency: "Functional",
+//     icon: code,
+//     id: "other",
+//     desc: [
+//       `
+// I've also used C#, Ruby, Lisp, HTML, CSS, Bash, Pascal, Ada,
+// Awk, Make, Sed, Perl, PHP, and Basic.  I'm sure
+// there are others, but I don't really consider myself proficient
+// in any of these.  Basically, I can make them do what I need.
+//       `,
+//     ]
+//   },
 ];
 
 export { languages, proficiency_ratings };
