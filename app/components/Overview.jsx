@@ -16,24 +16,19 @@ const Overview = () => {
         className='mt-4 text-primary text-2xl leading-[30px]'
       >
         <p>
-          Throughout my career, I have worked on embedded systems, display driver,
-          streaming media drivers, DMA drivers, graphics software, multimedia
-          codecs, parsers, communication protocols, test frameworks,
-          profilers, DRM software (CPRM), native applications on Windows and Linux,
-          web services and applications, the WebKit rendering engine, and Qualcomm's
-          trusted execution environment (QTEE).
+          Throughout my studies I have worked on debugging and problem solving, refactoring,
+          testing, pair programming, using documentation, and learning the grammar of HTML,
+          CSS, and JS.
         </p>
 
         <p>
-          I have contributed code to Microsoft Windows, Qualcomm BREW,
-          Qualcomm's Android and Embedded Linux releases for Snapdragon,
-          WebKit, SDKs, and DDKs.
+          I particularly enjoy the practices of Test-Driven Development and abstraction, and
+          always strive to follow the SOLID principles of Agile code.
         </p>
 
         <p>
-          While most of the software I have worked on has been proprietary
-          intellectual property of my employer, I am looking forward to
-          doing more work in open-source.
+          One of my favorite things about code is the room for growth, and programmers whose code
+          I look up to include Steve Freeman and Nat Pryce, Luciano Ramalho, and of course Uncle Bob.
         </p>
       </motion.div>
     </>

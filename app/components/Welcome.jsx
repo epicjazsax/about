@@ -29,6 +29,7 @@ const Welcome = () => {
                     "finding efficient solutions",
                     "keeping code maintainable",
                     "learning from better code",
+                    "a delicious hot cup of coffee that makes you forget all your problems for 15 minutes but then you finish it and whoops now you're back in reality but at least you're slightly too caffeinated to pass out",
                   ])}
                 />
               </span>

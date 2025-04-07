@@ -30,7 +30,7 @@ const Mission = () => {
         </p>
 
         <ul className='mt-5 list-disc ml-5 space-y-2'>
-          <li>maintainable (readable, testable, and extensible)</li>
+          <li>maintainable (readable, testable, and flexible)</li>
           <li>robust (well-tested, consistent, and efficient)</li>
           <li>secure (appropriately protected, permissioned, and authenticated)</li>
         </ul>
