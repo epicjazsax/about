@@ -5,13 +5,14 @@ import {
   ucsd,
   valhalla,
   dod,
+  ztm,
 } from "../assets";
 
 const experiences = [
   {
     title: "Complete Web Developer",
     company_name: "Zero To Mastery",
-    icon: snapdragon,
+    icon: ztm,
     iconBg: "#112",
     date: "Jan 2024 - Mar 2025",
     summary: "Earned a certificate as a full-stack web developer. Worked with React, API calls, encrypting passwords, database management, and more.",

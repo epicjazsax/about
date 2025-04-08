@@ -24,7 +24,7 @@ const TimelineElementWrapper = ({ children, company_name, date, icon, iconBg }) 
             // https://github.com/stephane-monnot/react-vertical-timeline/issues/166
             visible={true}
             contentStyle={{
-                background: company_name.includes('UCSD') ? colors.rose['950'] : colors.primary['900'],  // ref: https://tailwindcss.com/docs/customizing-colors
+                background: colors.primary['900'],  // ref: https://tailwindcss.com/docs/customizing-colors
                 color: "#fff",
                 border: "1px solid #fff",
                 borderRadius: "12px",
