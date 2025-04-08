@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 
 
 export const metadata = {
-  title: "Tom Z's Profile",
+  title: "Justin Z's Profile",
   description: "My personal profile, implemented as a reactive website using Next.js",
 };
 

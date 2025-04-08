@@ -1,6 +1,9 @@
 # Ideas
 
-* `[ ]` Set up github issues
-* `[ ]` Set up github automation
-* `[ ]` Figure out react.js testing best-practices
+* `[ ]` Update icons
+* `[ ]` Review resume data
+* `[ ]` Update linkedin
+* `[ ]` Review css
+* `[ ]` Set up contact link
+* `[ ]` Set up vercel
 

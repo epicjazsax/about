@@ -3,15 +3,14 @@
 
 The goal here is to provide information about my professional skills, interests, and experience.
 I'm also using it for practicing full-stack web development.
-This site is hosted at [Vercel](https://veryoddthomas.vercel.app/)
+This site is hosted at [Vercel](https://epicjazsax.vercel.app/)
 
-Feel free to fork it and use it as a template, or make suggestions.
-
+This has been forked from (https://github.com/veryoddthomas/about)
 
 ## Getting Started
 
 ```bash
-git clone git@github.com:veryoddthomas/about.git
+git clone git@github.com:epicjazsax/about.git
 ```
 
 Run the development server:
