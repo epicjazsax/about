@@ -47,6 +47,7 @@ import dod from "./dod.png";
 import src from "./src.png";
 import qrcode from "./qrcode.png";
 import tomz from "./tom-z-mercury-dark.png";
+import ztm from "./ztm.png";
 
 
 export {
@@ -95,4 +96,5 @@ export {
   src,
   qrcode,
   tomz,
+  ztm
 };
