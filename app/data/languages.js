@@ -3,6 +3,8 @@ import {
   python,
   javascript,
   code,
+  csslogo,
+  htmllogo
 } from "../assets";
 
 const proficiency_ratings = {
@@ -29,8 +31,8 @@ syntax or brush up on a method I haven't thought about in months, this is the la
   {
     title: "CSS",
     proficiency: "Functional",
-    icon: c_and_cpp,
-    id: "c-and-cpp",
+    icon: csslogo,
+    id: "csslogo",
     desc: [
       `
 I have spent some time with CSS and frameworks like Tailwind and TACHYONS as they relate to design
@@ -42,8 +44,8 @@ with Javascript.
   {
     title: "HTML",
     proficiency: "Functional",
-    icon: javascript,
-    id: "javascript",
+    icon: htmllogo,
+    id: "htmllogo",
     desc: [
       `
 As with CSS, I have spent some time with HTML learning layouts and tags but have not yet really

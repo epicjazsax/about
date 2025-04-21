@@ -51,6 +51,8 @@ import ztm from "./ztm.png";
 import target from "./target.png";
 import musicnotes from "./music-notes.jpg";
 import berklee from "./berklee.gif";
+import csslogo from "./css.png";
+import htmllogo from "./html.jpg";
 
 
 export {
@@ -102,5 +104,7 @@ export {
   ztm,
   target,
   musicnotes,
-  berklee
+  berklee,
+  csslogo,
+  htmllogo,
 };
