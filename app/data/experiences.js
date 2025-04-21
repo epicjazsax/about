@@ -6,6 +6,9 @@ import {
   valhalla,
   dod,
   ztm,
+  target,
+  musicnotes,
+  berklee
 } from "../assets";
 
 const experiences = [
@@ -13,7 +16,7 @@ const experiences = [
     title: "Complete Web Developer",
     company_name: "Zero To Mastery",
     icon: ztm,
-    iconBg: "#112",
+    iconBg: "#fff",
     date: "Jan 2024 - Mar 2025",
     summary: "Earned a certificate as a full-stack web developer. Worked with React, API calls, encrypting passwords, database management, and more.",
     // points: [
@@ -38,8 +41,8 @@ const experiences = [
   {
     title: "Testing: The Complete Developer's Guide",
     company_name: "Zero To Mastery",
-    icon: snapdragon,
-    iconBg: "#112",
+    icon: ztm,
+    iconBg: "#fff",
     date: "Jan 2024 - Mar 2025",
     summary: "Studied testing in Jest and React Testing Library.",
     // points: [
@@ -67,8 +70,8 @@ const experiences = [
   {
     title: "Inbound Expert",
     company_name: "Target",
-    icon: snapdragon,
-    iconBg: "#112",
+    icon: target,
+    iconBg: "#fff",
     date: "2021 - 2022",
     summary: "Worked as part of the Inbound team handling all products shipped to the store. Unloaded the trucks, followed shelving and backstocking protocols, and assisted other team members when available.",
     // points: [
@@ -94,8 +97,8 @@ const experiences = [
   {
     title: "Pit Orchestra",
     company_name: "Self-Employed Musician",
-    icon: snapdragon,
-    iconBg: "#112",
+    icon: musicnotes,
+    iconBg: "#fff",
     date: "2013-2020",
     summary: "Played woodwinds in the pit orchestra for various plays and musical theater productions in the Boston and NYC areas.",
     // points: [
@@ -121,8 +124,8 @@ const experiences = [
   {
     title: "Studio Recordings",
     company_name: "Self-Employed Musician",
-    icon: conexant,
-    iconBg: "#112",   // "#383E56"
+    icon: musicnotes,
+    iconBg: "#fff",
     date: "2013-2020",
     summary: "Recorded generally sight-read woodwind tracks for assorted projects and albums.",
     // points: [
@@ -152,8 +155,8 @@ const experiences = [
   {
     title: "Live Shows",
     company_name: "Self-Employed Musician",
-    icon: microsoft,
-    iconBg: "#000",   // "#383E56"
+    icon: musicnotes,
+    iconBg: "#fff",
     date: "2013-2020",
     summary: "Played memorized songs, often as part of a horn section, for concerts and weddings.",
     // points: [
@@ -183,7 +186,7 @@ const experiences = [
   {
     title: "Bachelor's Degree, Woodwind Performance",
     company_name: "Berklee College of Music",
-    icon: ucsd,
+    icon: berklee,
     iconBg: "#fff",
     date: "Sep 2013 - Jun 2017",
     summary: "Additional minor in Instrument Repair",
@@ -213,62 +216,6 @@ const experiences = [
     //   // "pascal",
     // ],
   },
-  // {
-  //   title: "Software Engineer, Firmware/BSP",
-  //   company_name: "Valhalla Scientific",
-  //   icon: valhalla,
-  //   iconBg: "#fff",   // "#383E56"
-  //   date: "Feb 1990 - Jun 1992",
-  //   summary: "Developed and maintained control software for digital test equipment.",
-  //   points: [
-  //     "Worked 25-40 hours per week while attending UCSD",
-  //     "Developed and maintained software for several electronic test systems",
-  //     "Designed and developed software for a digital power spectrum analyzer.",
-  //   ],
-  //   detailed_points: [
-  //     "Co-developed software and firmware for a Motorola 68000 host, a Motorola DSP56001 coprocessor, and an Analog Devices ADSP2101 coprocessor for a digital power spectrum analyzer.",
-  //     "Developed a PC based simulator for our spectrum analyzer. We were able to test more than 75% of our code in the PC environment. This helped us deal with rapidly changing user interface requirements.",
-  //     "Completed Motorola certification program for the DSP56001 microprocessor.",
-  //     "Maintained firmware for several existing electronic test equipment systems.",
-  //     "Assisted in design and debug of power-analyzer programmable logic devices (Altera PLDs).",
-  //     "Designed and implemented control software for a digital high potential dielectric breakdown tester.",
-  //     "Designed and implemented high performance/high resolution adaptive DAC control software system to maintain 1V resolution at 7KV under varying load conditions.",
-  //     "Developed a graphic PC based simulator for the high voltage tester.",
-  //     "Implemented communications protocols for RS-232 and GPIB IEEE.488.2 general purpose parallel bi-directional bus.",
-  //   ],
-  //   languages: [
-  //     "c",
-  //     "68k-asm",
-  //   ],
-  // },
-  // {
-  //   title: "Engineering Assistant (Intern) - Code 54 (special projects)",
-  //   company_name: "NAVELEX (DOD)",
-  //   icon: dod,
-  //   iconBg: "#fff",   // "#383E56"
-  //   date: "Oct 1987 - Feb 1990",
-  //   summary: "Problem solving in a team of troubleshooters.",
-  //   points: [
-  //     "Held a U.S. secret clearance.",
-  //     "Solved whatever problems arose.",
-  //     "██████ █████ ████.",
-  //     "█████ and then ███████.",
-  //   ],
-  //   detailed_points: [
-  //     "Held a U.S. secret clearance.",
-  //     "Maintained document-control system for classified information.",
-  //     "Built tooling to manipulate AutoCAD plot files to support new paper sizes.",
-  //     "Implemented software to transfer encoded files from a DEC PDP-8 to PC and transcode to ASCII text.",
-  //     "Redesigned database used to track technical feedback reports to optimize it significantly.",
-  //     "The rest is classified..."
-  //   ],
-  //   languages: [
-  //     "c",
-  //     "pascal",
-  //     "basic",
-  //     "dbase",
-  //   ],
-  // },
 ];
 
 export { experiences };

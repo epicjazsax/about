@@ -48,6 +48,9 @@ import src from "./src.png";
 import qrcode from "./qrcode.png";
 import tomz from "./tom-z-mercury-dark.png";
 import ztm from "./ztm.png";
+import target from "./target.png";
+import musicnotes from "./music-notes.jpg";
+import berklee from "./berklee.gif";
 
 
 export {
@@ -96,5 +99,8 @@ export {
   src,
   qrcode,
   tomz,
-  ztm
+  ztm,
+  target,
+  musicnotes,
+  berklee
 };

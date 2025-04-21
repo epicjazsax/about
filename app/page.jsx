@@ -21,7 +21,7 @@ export default function Home() {
       {/* <Mission /> */}
       <Experience />
       <Overview />
-      <DomainCards />
+      {/* <DomainCards /> */}
       <LanguageCards />
       <Contact />
       <PageEndDiv />
