@@ -4,14 +4,12 @@ const colors = require('tailwindcss/colors')
 
 const MONOCHROME_MODE = false;
 
-const palette = [colors.slate, colors.sky, colors.teal];  // default
-// const palette = [colors.slate, colors.violet, colors.slate];  // default
+const palette = [colors.neutral, colors.sky, colors.amber];  // default
 
-// const palette = [colors.neutral, colors.sky, colors.teal];  // a little warmer
+// const palette = [colors.slate, colors.sky, colors.teal];  // a little colder
 // const palette = [colors.slate, colors.orange, colors.yellow];  // halloween
 // const palette = [colors.slate, colors.emerald, colors.rose];  // christmas
 // const palette = [colors.slate, colors.blue, colors.red];  // 4th of july
-// const palette = [colors.slate, colors.yellow, colors.sky];  // default
 
 
 const primary_base_color = palette[0];
@@ -87,7 +85,7 @@ module.exports = {
         xs: "300px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/images/herobg2b.png')",
+        "hero-pattern": "url('/images/spaceWallpaper.jpg')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
