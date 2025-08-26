@@ -238,7 +238,9 @@ export default function Experience() {
                         ))}
 
                         {/* {Object.keys(experiencesGroupedByCompany).map((company, index) => (
-                            <CompanyCard experiencesAtCompany={experiencesGroupedByCompany[company]} />
+                            <CompanyCard experiencesAtCompany={experiencesGroupedByCompany[company]}
+                                key={`company-${index}`}
+                            />
                             ))} */}
 
                     </VerticalTimeline >
