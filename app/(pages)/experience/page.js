@@ -230,12 +230,12 @@ export default function Experience() {
 
                 <div className='mt-8 lg:mt-16 flex flex-col'>
                     <VerticalTimeline>
-                        {experiences.map((experience, index) => (
+                        {/* {experiences.map((experience, index) => (
                             <ExperienceCard
                                 key={`experience-${index}`}
                                 experience={experience}
                             />
-                        ))}
+                        ))} */}
 
                         {/* {Object.keys(experiencesGroupedByCompany).map((company, index) => (
                             <CompanyCard experiencesAtCompany={experiencesGroupedByCompany[company]}
